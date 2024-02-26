@@ -1,0 +1,173 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navpadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.flecha{
+    height: 12px;
+
+}
+
+.hijonav.uno{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijonav.tres{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijonav.dos{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sesion{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    font-family: "Roboto";
+    width: 105px;
+    font-weight: 450;
+    margin-right: 10px;
+}
+
+.registro{
+    background-color: rgb(235, 0, 0);
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    font-family: "Roboto";
+    width: 90px;
+    font-weight: 450;
+    color: white;
+    margin-right: 15px;
+}
+
+.unohijo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explorar{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    font-family: "Roboto";
+    width: 105px;
+    font-size: 11pt;
+    height: 40px;
+    font-weight: 450;
+    margin-left: 20px;
+}
+
+.explorar span{
+    font-weight: 450;
+    width: 60%;
+}
+
+.busqueda{
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    justify-content: baseline;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.encuentra{
+    border: none;
+    background-color: rgb(235, 235, 235);
+    width: 85%;
+    padding-left: 10px;
+}
+
+.lupa{
+    height: 15px;
+    padding-left: 15px;
+}
+
+.titulo{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18pt;
+}
+
+.cont1{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 30px;
+    height: 220px;
+}
+
+.fotogrande{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 180px
+
+}
+
+.fotoghijo{
+    display: flex;
+    background-color: blue;
+    width: 30.4%;
+    height: 100%;
+    border-radius: 10px;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    color: white;
+    font-size: 14pt;
+
+}
+
+.fotoghijo.uno{
+   background-image: url(casa.jpeg);
+}
+
+.fotoghijo.uno div p{
+    margin-bottom: 10px;
+}
+
+.fotoghijo.dos div p{
+    margin-bottom: 10px;
+}
+
+.fotoghijo.tres div p{
+    margin-bottom: 10px;
+}
+
+.vermas{
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 9pt;
+    width: 63px;
+}
